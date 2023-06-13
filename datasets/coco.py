@@ -290,7 +290,7 @@ if __name__ == "__main__":
 
     class DefaultArgs():
         def __init__(self):
-            self.coco_path = 'RadioGalaxyNET_V4'
+            self.coco_path = 'RadioGalaxyNET'
             self.masks = None
             self.keypoints = True
             self.noisy_data = False
