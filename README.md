@@ -39,7 +39,7 @@ To train on a single node with single gpu run:
 ```
 GPUS_PER_NODE=1 ./tools/run_dist_launch.sh 1 ./configs/r50_deformable_detr.sh
 ```
-To ease reproduction of our results we provide model checkpoint [here](). 
+To ease reproduction of our results we provide model checkpoint [here](https://figshare.com/s/4e98cad967ca1c60bb74). 
 Place the model in `./outputs_gal/` directory.
 
 ## Evaluation
