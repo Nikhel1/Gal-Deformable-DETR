@@ -1,4 +1,4 @@
-# Gal-Deformable DETR
+**Gal-Deformable DETR**
 ========
 
 ## Installation
