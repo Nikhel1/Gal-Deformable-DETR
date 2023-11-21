@@ -23,7 +23,7 @@ python test.py
 
 ## Data preparation
 
-Download and extract RadioGalaxyNET data from the link described in the datasheet.
+Download and extract RadioGalaxyNET data from [here](https://data.csiro.au/collection/61068).
 We expect the directory structure to be the following:
 ```
 ./RadioGalaxyNET/
@@ -48,4 +48,4 @@ To evaluate on test images with a single GPU run:
 GPUS_PER_NODE=1 ./tools/run_dist_launch.sh 1 ./configs/r50_deformable_detr.sh --eval --resume outputs_gal/checkpoint.pth
 ```
 ## License
-The License will be updated after publication. Note that the Deformable DETR is released under the Apache 2.0 license.
+Apache 2.0 license.
